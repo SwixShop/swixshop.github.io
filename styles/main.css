@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "MPLUSRounded1c-ExtraBold";
+    src: local("MPLUSRounded1c-ExtraBold"), 
+    url(/fonts/MPLUSRounded1c-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "ofont.ru_Cygre";
+    src: local("ofont.ru_Cygre"), 
+    url(/fonts/ofont.ru_Cygre.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "ofont.ru_Nunito";
+    src: local("ofont.ru_Nunito"), 
+    url(/fonts/ofont.ru_Nunito.ttf);
+    font-weight: 100;
+}
+
+html, body {
+    min-height: 100%;
+    height: 1000px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: "ofont.ru_Cygre";
+}
+
+/*хидер начало*/
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    border: 8px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background: linear-gradient(135deg, #7700ff, #b908ff);
+}
+
+header div {
+    display: flex;
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    background: linear-gradient(175deg, white 33%, #9c85ff);
+    color: #0B2349;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header>div>a {
+    display: flex;
+    padding-left: 140px;
+}
+
+header>div>a>img {
+    align-self: center;
+}
+
+header>div>div>a {
+    padding: 14px 20px;
+    font-family: "ofont.ru_Cygre";
+}
+
+header>div>div>a:hover {
+    border-bottom: 3px solid #d4d4d4;
+}
+
+.header-container {
+    margin-right: 120px;
+}
+
+/* начало main */
+
+.container {
+    display: grid;
+    padding-top: 50px;
+}
+
+/* настройки */
+.settings {
+    justify-self: flex-start;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+}
+
+.settings > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.settings > div > span {
+    padding-top: 30px;
+}
+
+/* продукты */
+
+.products {
+    justify-self: center;
+    display: flex;
+    height: 100%;
+    width: 60%
+}
+
+/* корзина */
+
+.shopper {
+    justify-self: flex-end;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+}
+
+.shopper > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.shopper > div > span {
+    padding-top: 30px;
+}
+
+/* product */
+/*
+#back_ancient {
+    background-image: url("/pic/back_ancient.png");
+    background-size: 100%;
+}
+
+#back_unique {
+    background-image: url("/pic/back_unique.png");
+    background-size: 100%;
+}
+
+#back_vintage {
+    background-image: url("/pic/back_vin.png");
+    background-size: 100%;
+}
+
+#back_godly {
+    background-image: url("/pic/back_godly.png");
+    background-size: 100%;
+}
+
+#back_legendary {
+    background-image: url("/pic/back_leg.png");
+    background-size: 100%;
+}
+
+#back_another {
+    background-image: url("/pic/back_another.png");
+    background-size: 100%;
+}
+*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #EBEBEB;
+    max-width: 250px;
+    width: 250px;
+    box-shadow: rgb(165, 165, 165) 0px 5px 20px;
+}
+
+.backimg {
+    position: absolute;
+    max-width: 250px;
+    width: 250px;
+    height: 208px !important;
+    block-size: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#prod_pic {
+    position: absolute;
+    max-width: 184px;
+    width: 184px;
+    margin: 12px 33px;
+}
+
+.desc {
+    margin-top: 208px;
+}
+
+#desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-family: "ofont.ru_Nunito";
+}
+
+#en_name {
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+#price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+    font-size: 22px;
+    font-family: "ofont.ru_Cygre";
+}
+
+#counter>div>button {
+    background-color: #B9B9B9;
+}
+
+#counter>div>button:active {
+    background-color: #8f8f8f;
+}
+
+#counter>div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 108px;
+    height: 39px;
+    background-color: #B9B9B9;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+#plus, #minus, #count{
+    width: 40px;
+    height: 38px;
+    text-align: center;
+}
+
+#count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28;
+    height: 38;
+    font-size: 22px;
+    font-family: "ofont.ru_Cygre";
+}
+
+#plus {
+    border-radius: 10px 0px 0px 10px;
+    font-size: 22px;
+    font-family: "ofont.ru_Nunito";
+}
+
+#minus {
+    border-radius: 0px 10px 10px 0px;
+    font-size: 22px;
+    font-family: "ofont.ru_Nunito";
+}
+
+#add {
+    margin-left: 5px;
+    background-color: #1BC200;
+    border-radius: 8px;
+    text-align: center;
+    width: 109px;
+    height: 38px;
+    font-size: 16px;
+    font-family: "ofont.ru_Nunito";
+}
+
+#add:active {
+    background-color: #159601;
+}
