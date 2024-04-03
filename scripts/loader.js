@@ -791,62 +791,62 @@ var products = {
     //vintage
 
     "America": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Blood": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Cowboy": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Ghost": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Golden": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Laser (vintage)": {
-        "id": "godly",
+        "id": "vintage",
         "back_screen": "back_godly",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Phaser": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Prince": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Shadow": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
     "Splitter": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "vintage",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
@@ -854,14 +854,14 @@ var products = {
     //legendary
 
     "Cotton Candy": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "legendary",
+        "back_screen": "back_legendary",
         "ru_name": "Хлопковая конфета",
         "price": "150.00"
     },
     "JD": {
-        "id": "godly",
-        "back_screen": "back_godly",
+        "id": "legendary",
+        "back_screen": "back_legendary",
         "ru_name": "Джей Ди",
         "price": "150.00"
     },
