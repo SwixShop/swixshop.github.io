@@ -21,7 +21,7 @@ function first(clickedElement) {
         case ("add"):
             var localnum = 0
             try {
-                localnum = shopper[mainElement.getAttribute('id')][0]
+                localnum = shopper[mainElement.querySelector("#en_name").textContent][0]
             } catch {
                 NaN
             }
