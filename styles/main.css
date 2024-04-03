@@ -136,42 +136,12 @@ header>div>div>a:hover {
     padding-top: 30px;
 }
 
-/* product */
-/*
-#back_ancient {
-    background-image: url("/pic/back_ancient.png");
-    background-size: 100%;
-}
-
-#back_unique {
-    background-image: url("/pic/back_unique.png");
-    background-size: 100%;
-}
-
-#back_vintage {
-    background-image: url("/pic/back_vin.png");
-    background-size: 100%;
-}
-
-#back_godly {
-    background-image: url("/pic/back_godly.png");
-    background-size: 100%;
-}
-
-#back_legendary {
-    background-image: url("/pic/back_leg.png");
-    background-size: 100%;
-}
-
-#back_another {
-    background-image: url("/pic/back_another.png");
-    background-size: 100%;
-}
-*/
+/*product*/
 
 .products {
     display: flex;
     flex-wrap: wrap;
+    order: 1;
 }
 
 .product {
