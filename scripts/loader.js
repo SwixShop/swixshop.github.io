@@ -822,7 +822,7 @@ var products = {
     },
     "Laser (vintage)": {
         "id": "vintage",
-        "back_screen": "back_godly",
+        "back_screen": "back_vintage",
         "ru_name": "Америлазер",
         "price": "15.00"
     },
