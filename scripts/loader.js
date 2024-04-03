@@ -56,7 +56,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Ледяной арбалет",
-        "price": "100.00"
+        "price": "1250.00"
     },
     "Logchopper": {
         "id": "ancient",
