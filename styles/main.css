@@ -84,27 +84,40 @@ header>div>div>a:hover {
 /* начало main */
 
 .container {
-    display: grid;
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
     padding-top: 50px;
+    justify-content: center;
+    background-color: #EBEBEB;
 }
 
 /* настройки */
 .settings {
-    justify-self: flex-start;
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 50px;
     height: 100%;
-    width: 300px;
+    width: calc((100% - 1120px));
 }
 
 .settings > div {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    justify-content: center;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    box-shadow: rgb(165, 165, 165) 0px 5px 20px;
 }
 
 .settings > div > span {
-    padding-top: 30px;
+    align-self: center;
+    padding-top: 10px;
+}
+
+.settings > div > div {
+    justify-self: flex-start;
 }
 
 /* продукты */
@@ -112,37 +125,42 @@ header>div>div>a:hover {
 .products {
     justify-self: center;
     display: flex;
+    flex-direction: row;
     height: 100%;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: max-content !important;
+    max-width: 1120px;
+    height: 100%;
 }
 
 /* корзина */
 
 .shopper {
-    justify-self: flex-end;
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 50px;
     height: 100%;
-    width: 300px;
+    width: calc((100% - 1120px));
 }
 
 .shopper > div {
     display: flex;
     width: 100%;
+    margin: 15px;
+    border-radius: 10px;
     justify-content: center;
+    background-color: #EBEBEB;
+    box-shadow: rgb(165, 165, 165) 0px 5px 20px;
 }
 
 .shopper > div > span {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /*product*/
 
 .products {
     display: flex;
-    flex-wrap: wrap;
-    order: 1;
+    flex-wrap: wrap;;
 }
 
 .product {

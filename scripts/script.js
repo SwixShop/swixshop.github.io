@@ -12,12 +12,12 @@ function first(clickedElement) {
     switch (id) {
         case ("plus"):
             mainElement.querySelector("#count").textContent = Math.min(++num, 20)
-            break
+            return 0
         case ("minus"):
             if (num > 1) {
                 mainElement.querySelector("#count").textContent = --num
             }
-            break
+            return 0
         case ("add"):
             var localnum = 0
             try {
@@ -28,6 +28,102 @@ function first(clickedElement) {
             
             shopper[mainElement.querySelector("#en_name").textContent] = [Math.min(num + localnum, 20), Number(mainElement.querySelector("#price").textContent.match(/\d+/g).join(""))/100]
             console.log(shopper)
-            break
+            return 0
+    }
+}
+
+var btn = document.querySelector("#set_unique");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+var btn = document.querySelector("#set_ancient");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+var btn = document.querySelector("#set_godly");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+var btn = document.querySelector("#set_legendary");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+var btn = document.querySelector("#set_vintage");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+var btn = document.querySelector("#set_another");
+btn.addEventListener("click", (event) => {
+    if (event.srcElement.checked === false) {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = "none"
+        })
+    } else {
+        document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
+            item.style.display = ""
+        })
+    }
+})
+
+document.querySelector("#set_item").oninput = function () {
+    let value = this.value.trim().toLowerCase()
+    let items = document.querySelectorAll(".product")
+    if (value != '') {
+        items.forEach(function (element) {
+            if (element.innerText.toLowerCase().search(value) == -1) {
+                element.style.display = "none"
+            } else {
+                element.style.display = ""
+            }
+        })
+    } else {
+        items.forEach(function (element) {
+            element.style.display = ""
+        })
     }
 }

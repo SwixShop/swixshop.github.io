@@ -269,13 +269,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Красиви нош",
-        "price": "300.00"
+        "price": "500.00"
     },
     "Flowerwood Gun": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Красиви пест",
-        "price": "300.00"
+        "price": "500.00"
     },
     "Frostbite": {
         "id": "godly",
