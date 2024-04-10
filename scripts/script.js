@@ -36,11 +36,11 @@ var btn = document.querySelector("#set_unique");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -49,11 +49,11 @@ var btn = document.querySelector("#set_ancient");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -62,11 +62,11 @@ var btn = document.querySelector("#set_godly");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -75,11 +75,11 @@ var btn = document.querySelector("#set_legendary");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -88,11 +88,11 @@ var btn = document.querySelector("#set_vintage");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -101,11 +101,11 @@ var btn = document.querySelector("#set_another");
 btn.addEventListener("click", (event) => {
     if (event.srcElement.checked === false) {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = "none"
+            item.classList.add("hide")
         })
     } else {
         document.querySelectorAll("#" + event.srcElement.name).forEach((item) => {
-            item.style.display = ""
+            item.classList.remove("hide")
         })
     }
 })
@@ -116,14 +116,14 @@ document.querySelector("#set_item").oninput = function () {
     if (value != '') {
         items.forEach(function (element) {
             if (element.innerText.toLowerCase().search(value) == -1) {
-                element.style.display = "none"
+                element.classList.add("searchhide")
             } else {
-                element.style.display = ""
+                element.classList.remove("searchhide")
             }
         })
     } else {
         items.forEach(function (element) {
-            element.style.display = ""
+            element.classList.remove("searchhide")
         })
     }
 }
