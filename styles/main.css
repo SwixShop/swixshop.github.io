@@ -127,6 +127,7 @@ header>div>div>a:hover {
     flex-direction: row;
     padding-top: 50px;
     justify-content: flex-start;
+    align-content: center;
     background-color: #EBEBEB;
 }
 
@@ -434,6 +435,7 @@ button {
 
     .container {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .shopper {
