@@ -144,6 +144,7 @@ header>div>div>a:hover {
 .settings > div {
     display: flex;
     flex-direction: column;
+    align-content: center;
     width: 100%;
     margin: 15px;
     border-radius: 10px;
@@ -157,16 +158,30 @@ header>div>div>a:hover {
 }
 
 .settings > div > div {
-    justify-self: flex-start;
+    justify-self: center;
+    justify-content: space-evenly;
 }
 
 #set_item {
     border: #9e9e9e solid 2px;
     border-radius: 3px;
-    width: calc(100% - 8px);
+    height: 20px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.settings p {
+p:has(> #set_item) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.settings > div > div > p {
     margin: 15px 5px;
 }
 
@@ -357,8 +372,24 @@ button {
         justify-content: center;
     }
 
-    .settings, .shopper {
+    .shopper {
         display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .settings {
+        margin-top: 0;
+        position: static;
+        align-self: center;
+        max-width: 840px;
+        width: 100%;
+    }
+
+    .settings > div {
+        flex-direction: column;
     }
 }
 
@@ -374,6 +405,13 @@ button {
 
     .header-container {
         display: flex;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .settings > div > div {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -394,9 +432,32 @@ button {
         justify-content: none;
     }
 
-    .settings, .shopper {
+    .container {
+        flex-direction: row;
+    }
+
+    .shopper {
         display: flex;
         max-width: 250px;
+    }
+
+    .settings {
+        display: flex;
+        position: sticky;
+        align-self: start;
+        top: 50px;
+        width: 350px;
+        height: 100%;
+        max-width: 350px;
+        align-self: none;
+    }
+
+    .settings > div > div {
+        flex-direction: column;
+    }
+
+    .settings > div > div > p {
+        margin: 10px;
     }
 }
 
