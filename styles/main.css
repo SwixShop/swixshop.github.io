@@ -126,7 +126,7 @@ header>div>div>a:hover {
     width: 100%;
     flex-direction: row;
     padding-top: 50px;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #EBEBEB;
 }
 
