@@ -70,6 +70,7 @@ header>div>div>a:hover {
     display: none;
     position: absolute;
     right: -20px;
+    height: 70px;
     margin-top: 50px;
     min-width: 200px;
     z-index: 1;
