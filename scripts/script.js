@@ -1,4 +1,9 @@
-var shopper = {}
+var shopper = JSON.parse(window.localStorage.getItem("shopper"))
+
+if (shopper == null) {
+    shopper = {}
+}
+
 function first(clickedElement) {
     var id = clickedElement.getAttribute("id") 
     var mainElement = clickedElement.parentElement.parentElement.parentElement
@@ -26,8 +31,10 @@ function first(clickedElement) {
                 NaN
             }
             
+            mainElement.querySelector("#in-shopper").style.position = "relative"
+            
             shopper[mainElement.querySelector("#en_name").textContent] = [Math.min(num + localnum, 20), Number(mainElement.querySelector("#price").textContent.match(/\d+/g).join(""))/100]
-            console.log(shopper)
+            window.localStorage.setItem("shopper", JSON.stringify(shopper))
             return 0
     }
 }

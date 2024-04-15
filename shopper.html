@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swix Shop</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/shopper.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://t.me/SwixShop"><img src="pic/Logo.png" alt="SwixShop" style="height: 35px"></a>
+            <div class="menu-div">
+                <img class="menu" src="pic/Menu.png" alt="Menu">
+                <div class="dropdown-menu">
+                    <div>
+                        <a href="/index.html">Каталог</a>
+                        <a id="ineeditid" onclick="copyToClip(this)">Скопировать код</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-container">
+                <a class="header-item" href="/index.html">Каталог</a>
+                <a onclick="copyToClip(this)" class="header-item">Скопировать код</a>
+            </div>
+        </div>
+    </header>
+    <main class="container" style="justify-content: center !important;">
+        <div class="shopper-div">
+            <div class="title">Ваша корзина</div>
+            <div class="shopper-items">
+                
+            </div>
+            <div id="total">
+                <a>Общий итог:</a>
+                <a id="total-a">много денег</a>
+            </div>
+            <div><button id="copy-code" onclick="copyToClip(this)">Скопировать код для бота</button></div>
+            <div><button id="clear" onclick="clearShopper(this)">Отчистить корзину</button></div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/shop_script.js"></script>
+    <script src="scripts/shop_loader.js"></script>
+</body>
+</html>

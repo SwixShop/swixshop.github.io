@@ -1,0 +1,142 @@
+header > div {
+    display: flex;
+    justify-content: space-between;
+    border: 8px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+    background: linear-gradient(135deg, #7700ff, #b908ff);
+}
+
+header div {
+    display: flex;
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    background: linear-gradient(175deg, white 33%, #9c85ff);
+    color: #0B2349;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header>div>a {
+    display: flex;
+    margin-left: 140px;
+}
+
+header>div>a>img {
+    align-self: center;
+}
+
+header>div>div>a {
+    padding: 14px 20px;
+    font-family: "ofont.ru_Cygre";
+}
+
+header>div>div>a:hover {
+    border-bottom: 3px solid #d4d4d4;
+}
+
+.header-container {
+    margin-right: 120px;
+}
+
+.header-container > a {
+    cursor: pointer;
+}
+
+.menu-div {
+    height: 50px;
+    width: 35px;
+    align-self: center;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+}
+
+.menu-div img {
+    align-self: center;
+    height: 35px;
+    width: 35px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: -20px;
+    margin-top: 50px;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-menu > div {
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background: linear-gradient(135deg, #7700ff, #b908ff);
+}
+
+#ineeditid {
+    text-decoration: overline;
+    text-decoration-color: rgba(240, 248, 255, 0.452);
+}
+
+.dropdown-menu a {
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover {background-color: #ddd;}
+
+.menu-div:hover .dropdown-menu {display: block;}
+
+@media only screen and (min-width: 320px) {
+    header > div > a {
+        margin-left: 20px;
+        align-self: center;
+    }
+
+    .header-container {
+        margin-right: 50px;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    header > div > a {
+        display: flex;
+        align-self: normal;
+    }
+
+    .menu-div {
+        display: none;
+    }
+
+    .header-container {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    header > div > a {
+        margin-left: 140px;
+    }
+
+    .header-container {
+        margin-right: 140px;
+        display: flex;
+    }
+}
+

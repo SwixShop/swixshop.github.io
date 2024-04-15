@@ -1026,41 +1026,43 @@ var products = {
     },
 }
 
-var prodlist = document.querySelector(".products")
-dict = JSON.parse(window.localStorage.getItem("shopper"))
+var prodlist = document.querySelector(".shopper-items")
 
-if (dict == null) {
-    dict = {}
+var shopper = JSON.parse(window.localStorage.getItem("shopper"))
+
+if (shopper == null) {
+    shopper = {}
 }
 
-for (key in products) {
+for (key in shopper) {
     var div = document.createElement("div")
-    div.setAttribute("id", products[key]["id"])
-    div.setAttribute("class", "product")
-    if (typeof(dict[key]) == "object") {
-        style = 'style="position: relative !important;"'
-    } else {
-        style = ""
-    }
+    div.setAttribute("class", "shopper-item")
     div.innerHTML = `
-    <img class="backimg" src="pic/${products[key]["back_screen"]}.png" alt="">
-    <img id="prod_pic" src="pic/Items/${key}.png" alt="">
-    <a id="in-shopper" ${style}>В корзине</a>
-    <div class="desc">
-        <div id="desc">
-            <span id="en_name">${key}</span>
-            <span id="ru_name">${products[key]["ru_name"]}</span>
-            <span id="price">${products[key]["price"]} руб</span>
-        </div>
-        <div id="counter">
-            <div>
-                <button type="button" onclick="first(this)" id="plus">+</button>
-                <span id="count">1</span>
-                <button type="button" onclick="first(this)" id="minus">-</button>
+    <div>
+        <img class="backimg-shopper" src="pic/${products[key]["back_screen"]}.png" alt="">
+        <img id="prod_pic-shopper" src="pic/Items/${key}.png" alt="">
+        <div>
+            <div class="item-name">${key}</div>
+            <div class="price">${products[key]["price"]}₽</div>
+            <div id="counter">
+                <button type="button" onclick="shopper_func(this)" id="addone">+</button>
+                <a id="count">${shopper[key][0]}</a>
+                <button type="button" onclick="shopper_func(this)" id="removeone">-</button>
             </div>
-            <button type="button" onclick="first(this)" id="add">В корзину</button>
         </div>
     </div>
-    `
+    <div class="item-total">
+        <div>Итого:</div>
+        <div id="prostonado">${shopper[key][0] * shopper[key][1]}.00₽</div>
+    </div>
+`
     prodlist.appendChild(div)
 }
+
+var total = 0
+
+Object.keys(shopper).forEach(item => {
+    total += shopper[item][0] * shopper[item][1]
+});
+            
+document.querySelector("#total-a").textContent = String(total) + ".00₽"

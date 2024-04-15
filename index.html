@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swix Shop</title>
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -13,13 +14,15 @@
             <div class="menu-div">
                 <img class="menu" src="pic/Menu.png" alt="Menu">
                 <div class="dropdown-menu">
-                    <a href="">Корзина</a>
-                    <a>Скопировать код</a>
+                    <div>
+                        <a href="/shopper.html">Корзина</a>
+                        <a id="ineeditid" onclick="copyToClip(this)">Скопировать код</a>
+                    </div>
                 </div>
             </div>
             <div class="header-container">
-                <a class="header-item" href="">Корзина</a>
-                <a class="header-item" href="">Скопировать код</a>
+                <a class="header-item" href="/shopper.html">Корзина</a>
+                <a onclick="copyToClip(this)" class="header-item">Скопировать код</a>
             </div>
         </div>
     </header>
@@ -49,6 +52,15 @@
                 <span>
                     Корзина
                 </span>
+                <div class="Shopper-items">
+                    Временно не работает, мне лень это делать
+                    <!--
+                    <div>
+                        <a>Chroma Elderwood Blade</a>
+                        <div><a>+ 5 -</a><a>    5000.00₽</a></div>
+                    </div>
+                    -->
+                </div>
             </div>
         </div>
     </main>
@@ -57,5 +69,6 @@
     </footer>
     <script src="scripts/loader.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/shop_script.js"></script>
 </body>
 </html>
