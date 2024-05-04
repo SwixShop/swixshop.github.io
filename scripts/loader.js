@@ -119,7 +119,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Блоссом",
-        "price": "300.00"
+        "price": "530.00"
     },
     "Blue Seer": {
         "id": "godly",
@@ -449,7 +449,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Океан",
-        "price": "130.00"
+        "price": "190.00"
     },
     "Old Glory": {
         "id": "godly",
@@ -539,7 +539,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Sakura",
-        "price": "300.00"
+        "price": "530.00"
     },
     "Saw": {
         "id": "godly",
@@ -635,7 +635,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Waves",
-        "price": "130.00"
+        "price": "190.00"
     },
     "Winters Edge": {
         "id": "godly",
