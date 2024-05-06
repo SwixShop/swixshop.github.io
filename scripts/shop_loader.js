@@ -880,10 +880,10 @@ var products = {
         "ru_name": "Electro",
         "price": "10.00"
     },
-    "Frostbite": {
+    "Frostbird": {
         "id": "godly",
         "back_screen": "back_godly",
-        "ru_name": "Frostbite",
+        "ru_name": "Frostbird",
         "price": "10.00"
     },
     "Ghosty": {
