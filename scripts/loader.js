@@ -14,13 +14,13 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Крыло",
-        "price": "90.00"
+        "price": "85.00"
     },
     "Elderwood Scythe": {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Коса Елдервуда",
-        "price": "125.00"
+        "price": "118.00"
     },
     "Gingerscope": {
         "id": "ancient",
@@ -32,7 +32,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Хэлоуинская коса",
-        "price": "80.00"
+        "price": "68.00"
     },
     "Harvester": {
         "id": "ancient",
@@ -68,7 +68,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Свирли топор",
-        "price": "550.00"
+        "price": "500.00"
     },
     "Travellers Axe": {
         "id": "ancient",
@@ -89,7 +89,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "бита",
-        "price": "750.00"
+        "price": "510.00"
     },
     "Battle Axe II": {
         "id": "godly",
@@ -119,7 +119,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Блоссом",
-        "price": "530.00"
+        "price": "550.00"
     },
     "Blue Seer": {
         "id": "godly",
@@ -131,7 +131,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Костяной клинок",
-        "price": "25.00"
+        "price": "34.00"
     },
     "Candleflame": {
         "id": "godly",
@@ -161,7 +161,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Печенька",
-        "price": "23.00"
+        "price": "200.00"
     },
     "Cookiecane": {
         "id": "godly",
@@ -203,13 +203,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Клинок Элдервуда",
-        "price": "470.00"
+        "price": "270.00"
     },
     "Elderwood Revolver": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Револьвер Элдервуда",
-        "price": "125.00"
+        "price": "118.00"
     },
     "Eternal": {
         "id": "godly",
@@ -329,7 +329,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Хэлоуинский пестик",
-        "price": "80.00"
+        "price": "68.00"
     },
     "Hallows Blade": {
         "id": "godly",
@@ -377,13 +377,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Ледяная лепина",
-        "price": "75.00"
+        "price": "45.00"
     },
     "Iceflake": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Ледяная снежинка",
-        "price": "75.00"
+        "price": "45.00"
     },
     "Iceblaster": {
         "id": "godly",
@@ -449,7 +449,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Океан",
-        "price": "190.00"
+        "price": "155.00"
     },
     "Old Glory": {
         "id": "godly",
@@ -485,13 +485,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Плазматический",
-        "price": "60.00"
+        "price": "45.00"
     },
     "Plasmablade": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Плазматический клинок",
-        "price": "60.00"
+        "price": "45.00"
     },
     "Prismatic": {
         "id": "godly",
@@ -515,13 +515,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Rainbow Gun",
-        "price": "170.00"
+        "price": "270.00"
     },
     "Rainbow": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Rainbow",
-        "price": "140.00"
+        "price": "270.00"
     },
     "Red Luger": {
         "id": "godly",
@@ -539,7 +539,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Sakura",
-        "price": "530.00"
+        "price": "550.00"
     },
     "Saw": {
         "id": "godly",
@@ -593,13 +593,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Swirly Blade",
-        "price": "270.00"
+        "price": "235.00"
     },
     "Swirly Gun": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Swirly Gun",
-        "price": "550.00"
+        "price": "430.00"
     },
     "Tides": {
         "id": "godly",
@@ -773,7 +773,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Swirly Gun",
-        "price": "600.00"
+        "price": "445.00"
     },
     "Chroma Tides": {
         "id": "godly",
