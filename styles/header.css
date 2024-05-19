@@ -77,7 +77,7 @@ header>div>div>a:hover {
 }
 
 .dropdown-menu > div {
-    height: 50px;
+    height: 48px;
     padding: 5px;
     border-radius: 8px;
     display: flex;
@@ -96,7 +96,6 @@ header>div>div>a:hover {
 #INII {
     margin: 0px;
     padding: 0px;
-    margin-bottom: 3px;
 }
 
 .dropdown-menu a {
