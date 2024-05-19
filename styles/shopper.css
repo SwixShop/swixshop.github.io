@@ -109,6 +109,10 @@ body {
     align-self: flex-start;
 }
 
+.item-total > div {
+    line-height: 24px;
+}
+
 button {
     border: none;
     text-decoration: none;
@@ -185,6 +189,11 @@ button {
 
 .item-name, .price {
     line-height: 24px;
+}
+
+.price {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
 @media only screen and (min-width: 320px) {

@@ -87,8 +87,7 @@ header>div>div>a:hover {
 }
 
 #ineeditid {
-    text-decoration: overline;
-    text-decoration-color: rgba(240, 248, 255, 0.452);
+    border-top: 2px rgba(240, 248, 255, 0.452) solid;
 }
 
 .dropdown-menu a {
