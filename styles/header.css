@@ -90,13 +90,12 @@ header>div>div>a:hover {
     border-top: 2px rgba(240, 248, 255, 0.452) solid;
     margin: 0px;
     padding: 0px;
-    padding-top: 1px;
 }
 
 #INII {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 1px;
+    margin-bottom: 1px;
 }
 
 .dropdown-menu a {
