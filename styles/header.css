@@ -98,6 +98,7 @@ header>div>div>a:hover {
     display: block;
     white-space: nowrap;
     cursor: pointer;
+    line-height: 24px;
 }
 
 .dropdown-menu a:hover {background-color: #ddd;}
