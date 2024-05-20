@@ -5,7 +5,7 @@ var products = {
         "id": "unique",
         "back_screen": "back_unique",
         "ru_name": "Коррупт",
-        "price": "1200.00"
+        "price": "1180.00"
     },
 
     //ancient
@@ -38,7 +38,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Арбалет",
-        "price": "1200.00"
+        "price": "930.00"
     },
     "Ice Wing": {
         "id": "ancient",
@@ -56,7 +56,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Ледяной арбалет",
-        "price": "1200.00"
+        "price": "930.00"
     },
     "Logchopper": {
         "id": "ancient",
@@ -68,7 +68,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Свирли топор",
-        "price": "500.00"
+        "price": "480.00"
     },
     "Travellers Axe": {
         "id": "ancient",
@@ -89,7 +89,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "бита",
-        "price": "510.00"
+        "price": "430.00"
     },
     "Battle Axe II": {
         "id": "godly",
@@ -137,7 +137,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Свеча",
-        "price": "270.00"
+        "price": "200.00"
     },
     "Candy": {
         "id": "godly",
@@ -599,7 +599,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Swirly Gun",
-        "price": "430.00"
+        "price": "380.00"
     },
     "Tides": {
         "id": "godly",
@@ -1053,7 +1053,7 @@ for (key in shopper) {
     </div>
     <div class="item-total">
         <div>Итого:</div>
-        <div id="prostonado">${shopper[key][0] * shopper[key][1]}.00₽</div>
+        <div id="prostonado">${shopper[key][0] * products[key]["price"]}.00₽</div>
     </div>
 `
     prodlist.appendChild(div)
@@ -1062,7 +1062,7 @@ for (key in shopper) {
 var total = 0
 
 Object.keys(shopper).forEach(item => {
-    total += shopper[item][0] * shopper[item][1]
+    total += shopper[item][0] * products[item]["price"]
 });
             
 document.querySelector("#total-a").textContent = String(total) + ".00₽"
