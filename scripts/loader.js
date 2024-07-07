@@ -305,13 +305,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Печенька клинок",
-        "price": "35.00"
+        "price": "30.00"
     },
     "Ginger Luger": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Печенька люгер",
-        "price": "35.00"
+        "price": "30.00"
     },
     "Gingermint": {
         "id": "godly",
@@ -335,13 +335,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Клинок хэлоуина",
-        "price": "45.00"
+        "price": "43.00"
     },
     "Hallows Edge": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Край хэлоуина",
-        "price": "45.00"
+        "price": "43.00"
     },
     "Handsaw": {
         "id": "godly",
@@ -419,7 +419,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Люгеркейн",
-        "price": "50.00"
+        "price": "32.00"
     },
     "Makeshift": {
         "id": "godly",
@@ -629,7 +629,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Virtual",
-        "price": "35.00"
+        "price": "50.00"
     },
     "Waves": {
         "id": "godly",
