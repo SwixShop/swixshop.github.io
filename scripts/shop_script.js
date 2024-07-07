@@ -65,7 +65,7 @@ function shopper_func(clickedElement) {
 }
 
 function copyToClip(clickedElement) {
-    navigator.clipboard.writeText(window.localStorage.getItem("shopper"))
+    navigator.clipboard.writeText("/buy " + window.localStorage.getItem("shopper"))
 }
 
 function clearShopper(clickedElement) {
