@@ -659,7 +659,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Boneblade",
-        "price": "85.00"
+        "price": "100.00"
     },
     "Chroma Candleflame": {
         "id": "godly",
@@ -677,7 +677,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Darkbringer",
-        "price": "190.00"
+        "price": "200.00"
     },
     "Chroma Deathshard": {
         "id": "godly",
@@ -707,67 +707,67 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Fang",
-        "price": "100.00"
+        "price": "130.00"
     },
     "Chroma Gemstone": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Gemstone",
-        "price": "135.00"
+        "price": "150.00"
     },
     "Chroma Gingerblade": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Gingerblade",
-        "price": "90.00"
+        "price": "120.00"
     },
     "Chroma Heat": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Heat",
-        "price": "130.00"
+        "price": "150.00"
     },
     "Chroma Laser": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Laser",
-        "price": "175.00"
+        "price": "160.00"
     },
     "Chroma Lightbringer": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Lightbringer",
-        "price": "200.00"
+        "price": "180.00"
     },
     "Chroma Luger": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Luger",
-        "price": "100.00"
+        "price": "160.00"
     },
     "Chroma Saw": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Saw",
-        "price": "75.00"
+        "price": "90.00"
     },
     "Chroma Seer": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Seer",
-        "price": "130.00"
+        "price": "100.00"
     },
     "Chroma Shark": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Shark",
-        "price": "130.00"
+        "price": "150.00"
     },
     "Chroma Slasher": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Slasher",
-        "price": "115.00"
+        "price": "140.00"
     },
     "Chroma Swirly Gun": {
         "id": "godly",
@@ -779,7 +779,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Chroma Tides",
-        "price": "115.00"
+        "price": "140.00"
     },
     "Chroma Travallers Gun": {
         "id": "godly",
