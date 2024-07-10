@@ -449,7 +449,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Океан",
-        "price": "155.00"
+        "price": "220.00"
     },
     "Old Glory": {
         "id": "godly",
@@ -473,7 +473,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Фантом",
-        "price": "250.00"
+        "price": "150.00"
     },
     "Pixel": {
         "id": "godly",
@@ -575,7 +575,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Spectre",
-        "price": "250.00"
+        "price": "150.00"
     },
     "Spider": {
         "id": "godly",
@@ -635,7 +635,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Waves",
-        "price": "190.00"
+        "price": "220.00"
     },
     "Winters Edge": {
         "id": "godly",
