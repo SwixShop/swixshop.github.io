@@ -5,7 +5,7 @@ var products = {
         "id": "unique",
         "back_screen": "back_unique",
         "ru_name": "Коррупт",
-        "price": "1180.00"
+        "price": "1250.00"
     },
 
     //ancient
@@ -38,7 +38,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Арбалет",
-        "price": "930.00"
+        "price": "1100.00"
     },
     "Ice Wing": {
         "id": "ancient",
@@ -56,13 +56,13 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Ледяной арбалет",
-        "price": "930.00"
+        "price": "1100.00"
     },
     "Logchopper": {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Логчоппер",
-        "price": "65.00"
+        "price": "45.00"
     },
     "Swirly Axe": {
         "id": "ancient",
@@ -95,13 +95,13 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Боевой топор 2",
-        "price": "40.00"
+        "price": "48.00"
     },
     "Battle Axe": {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Боевой топор",
-        "price": "45.00"
+        "price": "48.00"
     },
     "Bioblade": {
         "id": "godly",
@@ -161,7 +161,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Печенька",
-        "price": "200.00"
+        "price": "23.00"
     },
     "Cookiecane": {
         "id": "godly",
@@ -293,7 +293,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Драгоценный камень",
-        "price": "30.00"
+        "price": "28.00"
     },
     "Ghostblade": {
         "id": "godly",
@@ -359,7 +359,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Тепло",
-        "price": "22.00"
+        "price": "25.00"
     },
     "Ice Dragon": {
         "id": "godly",
@@ -436,7 +436,7 @@ var products = {
     "Nebula": {
         "id": "godly",
         "back_screen": "back_godly",
-        "ru_name": "ТУманность",
+        "ru_name": "Туманность",
         "price": "30.00"
     },
     "Nightblade": {
@@ -449,7 +449,7 @@ var products = {
         "id": "godly",
         "back_screen": "back_godly",
         "ru_name": "Океан",
-        "price": "220.00"
+        "price": "300.00"
     },
     "Old Glory": {
         "id": "godly",
@@ -462,6 +462,18 @@ var products = {
         "back_screen": "back_godly",
         "ru_name": "Оранжевый проведиц",
         "price": "20.00"
+    },
+    "Pearl": {
+        "id": "godly",
+        "back_screen": "back_godly",
+        "ru_name": "Жемчужина",
+        "price": "250.00"
+    },
+    "Pearlshine": {
+        "id": "godly",
+        "back_screen": "back_godly",
+        "ru_name": "Жемчужный блеск",
+        "price": "250.00"
     },
     "Peppermint": {
         "id": "godly",
@@ -631,6 +643,12 @@ var products = {
         "ru_name": "Virtual",
         "price": "50.00"
     },
+    "Watergun": {
+        "id": "godly",
+        "back_screen": "back_godly",
+        "ru_name": "Водяной пистолет",
+        "price": "480.00"
+    },
     "Waves": {
         "id": "godly",
         "back_screen": "back_godly",
@@ -786,6 +804,12 @@ var products = {
         "back_screen": "back_godly",
         "ru_name": "Chroma Travallers Gun",
         "price": "15000.00"
+    },
+    "Chroma Watergun": {
+        "id": "godly",
+        "back_screen": "back_godly",
+        "ru_name": "Chroma Watergun",
+        "price": "5000.00"
     },
 
     //vintage
