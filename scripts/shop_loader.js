@@ -38,7 +38,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Арбалет",
-        "price": "1200.00"
+        "price": "1300.00"
     },
     "Ice Wing": {
         "id": "ancient",
@@ -56,7 +56,7 @@ var products = {
         "id": "ancient",
         "back_screen": "back_ancient",
         "ru_name": "Ледяной арбалет",
-        "price": "1150.00"
+        "price": "1250.00"
     },
     "Logchopper": {
         "id": "ancient",
