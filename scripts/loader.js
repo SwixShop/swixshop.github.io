@@ -1073,7 +1073,7 @@ for (key in products) {
     <div class="desc">
         <div id="desc">
             <span id="en_name">${key}</span>
-            <span id="ru_name">${products[key]["ru_name"]}</span>
+            <span id="ru_name">${key}</span>
             <span id="price">${products[key]["price"]} руб</span>
         </div>
         <div id="counter">
